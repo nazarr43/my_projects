@@ -3,7 +3,7 @@ int numWin = random.Next(0, 1000);
 bool win = false;
 do
 {
-    Console.Write("guess a number(between 0 and 1000:");
+    Console.Write("guess a number(between 0 and 1000):");
     string i = Console.ReadLine();
     int numUser = int.Parse(i);
     if(numUser < numWin)
