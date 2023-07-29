@@ -30,26 +30,22 @@ namespace telephone_diary
         {
             InitializeComponent();
         }
-
         private void Form1_Load(object sender, EventArgs e)
         {
             gridload();
         }
         private void gridload()
         {
-            string selectQuery = "SELECT * FROM nazarok.q";
+            string selectQuery = "SELECT * FROM nazarok.telephone_diary";
             DataTable table = new DataTable();
             MySqlDataAdapter adapter = new MySqlDataAdapter(selectQuery, connection);
             adapter.Fill(table);
             dataGridView1.DataSource = table;
         }
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
         private void button2_Click(object sender, EventArgs e)
         {
-            string insertQuery = "INSERT INTO nazarok.q(name,category,email,surname,mobile) VALUES('" + textBox1.Text + "','" + comboBox1.Text + "','" + textBox4.Text + "','" + textBox2.Text + "'," + textBox3.Text + ")";
+            string insertQuery = "INSERT INTO nazarok.telephone_diary(name,category,email,surname,mobile) " +
+                "VALUES('" + textBox1.Text + "','" + comboBox1.Text + "','" + textBox4.Text + "','" + textBox2.Text + "'," + textBox3.Text + ")";
 
             connection.Open();
             MySqlCommand command = new MySqlCommand(insertQuery, connection);
@@ -69,28 +65,15 @@ namespace telephone_diary
             {
                 MessageBox.Show(ex.Message);
             }
-
             connection.Close();
             Application.Restart();
-
-
         }
-            
-
-        private void textBox1_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
-        }
-
         private void button3_Click(object sender, EventArgs e)
         {
             
-            string UpdateQuery = "UPDATE nazarok.q SET name = '" + textBox1.Text + "',surname = '" + textBox2.Text + "',mobile ='" + textBox3.Text + "',email ='" + textBox4.Text + "',category ='" + comboBox1.Text + "' WHERE (mobile = '" + textBox3.Text + "')";
+            string UpdateQuery = "UPDATE nazarok.telephone_diary SET name = '" + textBox1.Text + 
+                "',surname = '" + textBox2.Text + "',mobile ='" + textBox3.Text + "',email ='" + 
+                textBox4.Text + "',category ='" + comboBox1.Text + "' WHERE (mobile = '" + textBox3.Text + "')";
             connection.Open();
             try
             {
@@ -128,7 +111,7 @@ namespace telephone_diary
             {
                 dataGridView1.Rows.RemoveAt(item.Index);
             }
-            string deleteQuery = "DELETE FROM nazarok.q WHERE (mobile = '" + textBox3.Text + "')";
+            string deleteQuery = "DELETE FROM nazarok.telephone_diary WHERE (mobile = '" + textBox3.Text + "')";
             
             connection.Open();
             try
@@ -138,7 +121,6 @@ namespace telephone_diary
                 {
                     MessageBox.Show("DATA DELETE");
                 }
-                
             }
             catch (Exception ex)
             {
@@ -146,12 +128,6 @@ namespace telephone_diary
             }
             connection.Close();
             Application.Restart();
-
-
-
-
-
-
         }
     }
 }

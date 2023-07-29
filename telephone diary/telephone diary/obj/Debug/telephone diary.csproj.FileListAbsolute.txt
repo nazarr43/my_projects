@@ -32,3 +32,37 @@ C:\Users\MSI\Desktop\telephone diary\telephone diary\bin\Debug\System.Buffers.xm
 C:\Users\MSI\Desktop\telephone diary\telephone diary\bin\Debug\System.Memory.xml
 C:\Users\MSI\Desktop\telephone diary\telephone diary\bin\Debug\System.Numerics.Vectors.xml
 C:\Users\MSI\Desktop\telephone diary\telephone diary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\telephone diary.exe.config
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\telephone diary.exe
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\telephone diary.pdb
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\BouncyCastle.Crypto.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\Google.Protobuf.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Compression.LZ4.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Compression.LZ4.Streams.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Hash.xxHash.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\MySql.Data.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Buffers.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Memory.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Numerics.Vectors.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\ZstdNet.dll
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\BouncyCastle.Crypto.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\Google.Protobuf.pdb
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\Google.Protobuf.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Compression.LZ4.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Compression.LZ4.Streams.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\K4os.Hash.xxHash.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\MySql.Data.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Buffers.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Memory.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Numerics.Vectors.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.csproj.AssemblyReference.cache
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.csproj.SuggestedBindingRedirects.cache
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone_diary.Form1.resources
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone_diary.Properties.Resources.resources
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.csproj.GenerateResource.cache
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.csproj.CoreCompileInputs.cache
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.csproj.CopyComplete
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.exe
+D:\Git\sdvdfbfdb\telephone diary\telephone diary\obj\Debug\telephone diary.pdb
