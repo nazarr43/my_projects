@@ -1,0 +1,13 @@
+﻿@model RazorPizzeria.Models.PizzasModel
+
+<div class="text-center container">
+    <h1>Create your own pizza</h1>
+    <form method="post">
+        <input type="text" asp-for="PizzaName" placeholder="Give your pizza name.." />
+        <input type="checkbox" asp-for="TomatoSauce" placeholder="Tomato Sauce" />
+        <br />
+        <input type="checkbox" asp-for="Cheese" placeholder="Cheese" />
+
+        <button class="btn btn-primary mt-1" type="submit">Order my pizza</button>
+    </form>
+</div>
